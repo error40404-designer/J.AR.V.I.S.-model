@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JARVIS History Viewer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>JARVIS History Viewer</h1>
+    <form method="post" action="/search">
+        <input type="text" name="query" placeholder="Search prompts or replies">
+        <button type="submit">Search</button>
+    </form>
+    <hr>
+    {% if search %}
+        <h2>Search results for "{{ search }}"</h2>
+    {% endif %}
+    <table border="1" cellpadding="5">
+        <tr><th>ID</th><th>Timestamp</th><th>Prompt</th><th>AI Reply</th><th>Search Reply</th></tr>
+        {% for row in rows %}
+        <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+            <td>{{ row[2] }}</td>
+            <td>{{ row[3] }}</td>
+            <td>{{ row[4] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    #Jarvis is still under development, so there may be some bugs. Please report any issues to the developer.Also, pls use the AI responsibly and 
+    prevent sharing any sensitive information with the AI. Thank you for using JARVIS!
+</body>
+</html>
