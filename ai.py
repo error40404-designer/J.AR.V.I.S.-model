@@ -333,3 +333,15 @@ async def shutdown(request: Request):
 def shutdown_message():
     print("JARVIS SHUTTING DOWN")
 atexit.register(shutdown_message)
+
+import subprocess
+
+@app.on_event("startup")
+async def launch_history_viewer():
+    try:
+        # Launch history viewer on port 8500
+        subprocess.Popen(["uvicorn", "history_viewer:app", "--host", "127.0.0.1", "--port", "8500"])
+        print("History Viewer started at http://127.0.0.1:8500")
+    except Exception as e:
+        print(f"Failed to start History Viewer: {e}")
+
