@@ -23,10 +23,9 @@ This project is **still underway** and was coded with guidance from **Microsoft 
 - Voice response
 - Enhanced privacy
 
-NOTE: WE WILL BE ENDING SUPPORT FOR THE WEB INTERFACE AND THE thoovara_client SERVER IN A WEEKS TIME, POSSIBLY WITHIN 2-3-26.
-NOTE: JARVIS IS UNDERGOING MAJOR ARCHITECTURAL CHANGES. IT WILL BE REPLACED BY ANDROMEDA (NEW AI) IN THE COMING MONTHS. SUPPORT FOR JARVIS HAS ENDED.
-## Installation
-```bash
-git clone https://github.com/yourusername/jarvis-hud.git
-cd jarvis-hud
-pip install -r requirements.txt
+
+NOTE: JARVIS IS UNDERGOING MAJOR ARCHITECTURAL CHANGES. IT WILL BE REPLACED BY ANDROMEDA (NEW AI) IN THE COMING MONTHS. SUPPORT FOR JARVIS HAS ENDED. 
+
+Note: JARVIS Project has been suspended till 22-03-26. Andromeda will be deployed within JUNE 2026
+
+NOTE: Jarvis HUD web interface and the THOOVARA_Client has been completely stripped off from support. The owner advises against running the web interface due to its poor compatability and interface designs.
