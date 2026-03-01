@@ -23,6 +23,7 @@ This project is **still underway** and was coded with guidance from **Microsoft 
 - Voice response
 - Enhanced privacy
 
+NOTE: WE WILL BE ENDING SUPPORT FOR THE WEB INTERFACE AND THE thoovara_client SERVER IN A WEEKS TIME, POSSIBLY WITHIN 2-3-26.
 ---
 
 ## Installation
