@@ -24,8 +24,7 @@ This project is **still underway** and was coded with guidance from **Microsoft 
 - Enhanced privacy
 
 NOTE: WE WILL BE ENDING SUPPORT FOR THE WEB INTERFACE AND THE thoovara_client SERVER IN A WEEKS TIME, POSSIBLY WITHIN 2-3-26.
----
-
+NOTE: JARVIS IS UNDERGOING MAJOR ARCHITECTURAL CHANGES. IT WILL BE REPLACED BY ANDROMEDA (NEW AI) IN THE COMING MONTHS. SUPPORT FOR JARVIS HAS ENDED.
 ## Installation
 ```bash
 git clone https://github.com/yourusername/jarvis-hud.git
